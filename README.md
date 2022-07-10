@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Stargazers](https://img.shields.io/github/stars/TebzaTheMan/nextjs-starter-pack?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/TebzaTheMan/nextjs-starter-pack?label=FORKS&style=for-the-badge)
+![License](https://img.shields.io/github/license/TebzaTheMan/nextjs-starter-pack?color=green&label=LICENSE&style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/TebzaTheMan/nextjs-starter-pack?color=yellow&label=ISSUES&style=for-the-badge)
 
-## Getting Started
+A TypeScript starter for Next.js that includes all you need to build your next 🦄 project.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
+- [Nextjs](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky/#/)
+
+Also includes:
+
+- [Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)
+- [Google Style Guides for React](https://github.com/google/eslint-config-google)
+
+# Getting started
+
+```
+1. git clone https://github.com/TebzaTheMan/nextjs-starter-pack.git
+
+2. cd nextjs-starter-pack
+
+3. yarn && yarn dev or npm install && npm run dev if you prefer not to use yarn.
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Usage
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Development server
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+yarn start / npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can view the development server at `localhost:3000`.
 
-## Learn More
+### Production build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+ yarn build / npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Fork this repository;
+2. Create your branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
 
-## Deploy on Vercel
+## Acknowlegments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I basically wanted to use this [nextjs-starter-pack](https://github.com/miami78/nextjs-starter-pack) but it didnt have typescript support.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+So I made this starter-pack from following an awesome [tutorial](https://blog.jarrodwatts.com/nextjs-eslint-prettier-husky) written by [Jarrod Watts](https://github.com/jarrodwatts/).
